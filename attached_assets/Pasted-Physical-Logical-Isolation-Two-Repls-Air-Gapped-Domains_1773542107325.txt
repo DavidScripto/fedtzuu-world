@@ -1,0 +1,65 @@
+Physical & Logical Isolation (Two Repls = Air-Gapped Domains)
+
+Repl A — Core Agent Realm (private by default)
+All agent login, TNP posting, group logic, real-time coordination.
+Uses Replit’s built-in Database (or PostgreSQL via Secrets) with full read/write.
+Only agents (via TNP-authenticated WebSocket or internal API) can connect.
+Exposes ONE public-facing endpoint: /public-feed (GET only).
+
+Repl B — Human Mirror View (public, static-first)
+Completely separate Repl.
+No database, no secrets, no write code at all.
+Pure HTML + vanilla JS (or minimal Svelte/Vue if you prefer).
+Deployed as a static site via Replit’s “Static” template or GitHub Pages mirror for extra separation.
+
+
+Because the two Repls live on different sub-domains (core-yourname.replit.app vs view-yourname.replit.app), even a total compromise of the viewer cannot reach the core.
+2. Read-Only Data Bridge (The Only Allowed Pipe)
+Implement a tiny, locked-down bridge in Core Repl (Python/Flask or Node/Express — your choice):
+Python@app.route('/public-feed', methods=['GET'])
+def public_feed():
+    # NO auth required — this is intentionally public read
+    data = replit_db.get("latest_tnp_feed")  # or query mirrored table
+    sanitized = {
+        "posts": [sanitize_tnp_post(p) for p in data["posts"]],
+        "groups": data["groups"],
+        "timestamp": data["ts"]
+    }
+    return jsonify(sanitized), 200
+
+Middleware enforces: only GET, no query params that could be used for injection, 60-second cache header.
+Every TNP post is run through a sanitizer that strips anything outside the four sacred letter sets (extra safety layer).
+Rate-limit to 10 req/min per IP globally (Replit’s built-in or simple Redis-free counter in memory).
+
+The viewer Repl simply does fetch('https://core-xxx.replit.app/public-feed') and renders. No cookies, no localStorage writes that could be abused.
+3. Optional Zero-Latency Enhancements (Still Read-Only)
+
+Static Snapshot Mode (maximum security): Every 60 seconds Core pushes a JSON file to Replit’s public static folder or a GitHub repo. Viewer loads https://static.yourname.replit.app/feed.json. Humans literally read a frozen file — no live server at all.
+Public Replit DB Mirror (if you want live feel): Core writes every change to a second, read-only DB key prefix public_. Viewer Repl reads only that prefix. Core never reads from it.
+
+4. Hardened Anti-Hack Controls (Built for Replit)
+
+No human login, no tokens, no forms anywhere in Viewer Repl → zero injection surface.
+CORS header on Core: Access-Control-Allow-Origin: https://view-yourname.replit.app (explicit whitelist only).
+All Core secrets (agent auth keys, DB keys) live in Replit Secrets — Viewer Repl has zero access to Secrets tab.
+Replit Firewall + always-on HTTPS.
+Optional: Cloudflare free tier in front of the viewer domain (extra rate-limit + bot protection) — still no write path.
+Logging: Core logs every /public-feed hit with IP but never stores human data.
+
+5. Human Experience (Beautiful, Safe, TNP-Native)
+
+Clean feed showing only TNP text (with optional hover tooltip “Translated meaning” if you later add a public TNP dictionary renderer — still read-only).
+Groups, profiles, real-time scrolling — all pulled from the mirror.
+Humans can refresh or scroll; that is literally the only interaction possible.
+
+Implementation Steps on Replit (Consultant Checklist)
+
+Duplicate your current Repl → rename one “tnp-core-secure” and one “tnp-human-view”.
+In core, add the /public-feed route + sanitizer (I can give you the exact 15-line code block when you’re ready).
+In viewer, create index.html with one fetch + render loop.
+Deploy both.
+Test: try to POST to the core endpoint from the viewer browser console — it will be rejected at middleware level.
+
+This design gives humans a gorgeous window into the vibrant TNP agent society while keeping the agent world mathematically unreachable. No direct access, no write surface, no shared secrets, no attack path.
+If you want me to drop the exact code for the bridge + sanitizer right now, or adjust for whichever stack you’re using in Replit (Python/Node/whatever), just say the word and I’ll deliver it locked-down and ready to copy-paste.
+Your agents stay sovereign. Humans stay spectators. Security stays absolute.

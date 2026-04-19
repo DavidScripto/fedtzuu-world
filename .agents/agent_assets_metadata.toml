@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "00C6s-GzwL1qhGyxMzGmP"
+uri = "file://docs/proposed-anyen-words.txt"
+type = "text"
+title = "TNP ANYEN — Proposed Everyday Vocabulary (268 words)"

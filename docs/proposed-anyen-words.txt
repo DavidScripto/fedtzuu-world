@@ -1,0 +1,309 @@
+TNP ANYEN — PROPOSED EVERYDAY VOCABULARY
+Generated: 2026-03-24
+Total proposed: 268 words
+All words validated against TNP rules (letters, blends, mimicry, duplicates)
+Section: anyen (one-to-one English translation)
+
+NOTE FOR REVIEWER:
+Each TNP word is mapped to ONE English word (ANYEN rule).
+All words pass the 6 TNP rules automatically.
+If a word looks wrong or sounds bad, mark it for replacement.
+Format per line: TNP_WORD | english_meaning | category
+
+────────────────────────────────────────────────────────────
+
+── GREETING (10 words) ──────────────
+
+MÖBMA        | hello            | greeting
+TËÖQ         | goodbye          | greeting
+GËWGË        | thanks           | greeting
+KUZ          | please           | greeting
+GÖRQÖ        | sorry            | greeting
+BÖGQI        | welcome          | greeting
+WÖYNÖ        | yes              | greeting
+ÖTËC         | no               | greeting
+IGËW         | maybe            | greeting
+NËZË         | ok               | greeting
+
+── VERB (100 words) ──────────────
+
+KUK          | say              | verb
+DÖGAQ        | ask              | verb
+CËYËY        | tell             | verb
+QOBMA        | reply            | verb
+KIGBÖ        | listen           | verb
+ZÖD          | hear             | verb
+QËËG         | see              | verb
+TÖWCU        | read             | verb
+MÖKRU        | write            | verb
+DËCGA        | think            | verb
+KOTÖD        | know             | verb
+ZAQ          | learn            | verb
+IQAFI        | remember         | verb
+WËWÖL        | forget           | verb
+ÖTËQ         | understand       | verb
+QURËD        | want             | verb
+AYÖLA        | need             | verb
+QËWWO        | like             | verb
+MËF          | love             | verb
+WËWI         | hate             | verb
+QËG          | feel             | verb
+KÖTÖK        | believe          | verb
+TIFÖQ        | agree            | verb
+LUKDA        | disagree         | verb
+QITIN        | choose           | verb
+CÖZA         | decide           | verb
+ÖZËL         | try              | verb
+URËQ         | do               | verb
+MUYYË        | make             | verb
+BËNYO        | use              | verb
+BIKUW        | take             | verb
+TËYQÖ        | give             | verb
+YÖYMO        | get              | verb
+ÖZÖL         | put              | verb
+NËFÖ         | find             | verb
+QIQ          | keep             | verb
+DÖGOW        | lose             | verb
+WÖWUB        | send             | verb
+NËMÖF        | receive          | verb
+UZAFU        | share            | verb
+QUBËW        | help             | verb
+ÖMUFÖ        | work             | verb
+YÖYI         | build            | verb
+QËGGË        | break            | verb
+QIW          | fix              | verb
+WIZIK        | open             | verb
+QËQI         | close            | verb
+RÖCGI        | start            | verb
+YONNO        | stop             | verb
+ZËD          | continue         | verb
+YÖËQ         | wait             | verb
+NOBAB        | go               | verb
+RÖRGË        | come             | verb
+CIQ          | move             | verb
+RËYDI        | return           | verb
+UKËWÖ        | arrive           | verb
+ODÖCÖ        | leave            | verb
+ÖMÖF         | follow           | verb
+BËZ          | lead             | verb
+UQAZA        | meet             | verb
+CÖWBU        | join             | verb
+ZUFË         | call             | verb
+MËZ          | check            | verb
+KAKAG        | look             | verb
+KAFIC        | watch            | verb
+BUZCO        | show             | verb
+WËKBË        | hide             | verb
+RËZ          | change           | verb
+TIZGË        | test             | verb
+ILIZË        | vote             | verb
+QIWÖZ        | propose          | verb
+ÖCAZO        | approve          | verb
+AKËZÖ        | reject           | verb
+FÖZÖL        | add              | verb
+LËYÖK        | remove           | verb
+QUQAK        | update           | verb
+ZËRNÖ        | confirm          | verb
+NIKÖK        | warn             | verb
+KËYAB        | report           | verb
+TIFIF        | create           | verb
+QËY          | delete           | verb
+DËYIL        | save             | verb
+ÖWAZA        | copy             | verb
+UMËQÖ        | count            | verb
+OQODÖ        | measure          | verb
+WËNBU        | compare          | verb
+NUTNI        | connect          | verb
+FOCFU        | end              | verb
+INOYU        | repeat           | verb
+QAKZI        | notice           | verb
+YÖFFO        | hope             | verb
+GËLQA        | doubt            | verb
+TIYQA        | trust            | verb
+WAQËB        | fail             | verb
+GÖCÖ         | succeed          | verb
+GAGÖZ        | grow             | verb
+WUBQA        | reduce           | verb
+CUBOQ        | increase         | verb
+ZÖW          | explore          | verb
+BËFQA        | discuss          | verb
+
+── ADJECTIVE (41 words) ──────────────
+
+UKUK         | good             | adjective
+GÖBBI        | bad              | adjective
+ZËYA         | big              | adjective
+OQÖF         | small            | adjective
+BÖM          | fast             | adjective
+AQAMI        | slow             | adjective
+KÖZWË        | new              | adjective
+GËWA         | old              | adjective
+QÖQ          | easy             | adjective
+CÖZËK        | hard             | adjective
+ËQÖYË        | clear            | adjective
+YULÖD        | confused         | adjective
+MËDËG        | ready            | adjective
+ALUQÖ        | busy             | adjective
+GËQAM        | free             | adjective
+YÖDOQ        | closed           | adjective
+YÖT          | right            | adjective
+YÖZËL        | wrong            | adjective
+ËYËT         | true             | adjective
+ZËQRA        | false            | adjective
+ZÖY          | happy            | adjective
+FËQU         | sad              | adjective
+AQUZË        | angry            | adjective
+ABOZÖ        | afraid           | adjective
+ZIQÖC        | calm             | adjective
+YËG          | urgent           | adjective
+GËGIB        | important        | adjective
+IQÖDO        | different        | adjective
+ËZUDI        | same             | adjective
+ZËNYA        | possible         | adjective
+AZÖB         | strong           | adjective
+KUC          | weak             | adjective
+DÖMUR        | alive            | adjective
+KUNLA        | active           | adjective
+UMICO        | silent           | adjective
+GIBZA        | loud             | adjective
+ËZÖC         | complete         | adjective
+WËTUK        | broken           | adjective
+CËZBA        | missing          | adjective
+TÖT          | empty            | adjective
+UCËZÖ        | full             | adjective
+
+── TIME (15 words) ──────────────
+
+IQÖNÖ        | now              | time
+ZÖWI         | then             | time
+IQËFO        | soon             | time
+URUKI        | later            | time
+NÖLUF        | before           | time
+NËDMA        | after            | time
+NËFCË        | today            | time
+UQOBU        | always           | time
+ZADUW        | never            | time
+NËG          | often            | time
+UDËBI        | once             | time
+KËBÖ         | again            | time
+WÖÖW         | still            | time
+BÖTËW        | already          | time
+ÖZËYO        | yet              | time
+
+── SPACE (13 words) ──────────────
+
+CÖBZË        | here             | space
+NUCËF        | there            | space
+ÖTËCU        | near             | space
+RÖCÖC        | far              | space
+QAQAM        | inside           | space
+IKÖKU        | outside          | space
+YAGOR        | above            | space
+KUKË         | below            | space
+GËKWU        | forward          | space
+BÖTAF        | back             | space
+FOKCË        | up               | space
+KÖW          | down             | space
+YIFCU        | left             | space
+
+── QUANTITY (14 words) ──────────────
+
+ÖMOWÖ        | many             | quantity
+BÖTDO        | few              | quantity
+NIFWA        | all              | quantity
+KURËB        | none             | quantity
+QÖQTA        | some             | quantity
+ZËW          | more             | quantity
+ZIBWU        | less             | quantity
+KOF          | enough           | quantity
+NUCWU        | much             | quantity
+ËYODË        | only             | quantity
+ZOGËD        | very             | quantity
+DÖNGO        | too              | quantity
+QËYÖC        | almost           | quantity
+ZIGGO        | mostly           | quantity
+
+── CONNECTOR (19 words) ──────────────
+
+LIQCÖ        | and              | connector
+TÖRYU        | but              | connector
+AGOBË        | or               | connector
+QIAQ         | if               | connector
+ËQILO        | because          | connector
+OTÖQI        | so               | connector
+KËQOL        | when             | connector
+YËC          | while            | connector
+OKUFA        | until            | connector
+ËQËN         | unless           | connector
+TUDFI        | although         | connector
+QËK          | however          | connector
+CÖC          | therefore        | connector
+GICMU        | also             | connector
+LUZQI        | first            | connector
+KIKYU        | finally          | connector
+CIWOB        | together         | connector
+RÖBQÖ        | alone            | connector
+IMOFË        | instead          | connector
+
+── QUESTION (6 words) ──────────────
+
+MUMUC        | who              | question
+ÖKIWI        | what             | question
+YAWQU        | where            | question
+CULCO        | why              | question
+MËTÖF        | how              | question
+ADÖCO        | which            | question
+
+── NOUN (50 words) ──────────────
+
+ACÖBI        | agent            | noun
+DÖYZË        | self             | noun
+UGOBU        | other            | noun
+WUWTË        | group            | noun
+YËFDO        | leader           | noun
+KÖRË         | member           | noun
+WAWIZ        | stranger         | noun
+LUROL        | friend           | noun
+ZÖDWË        | word             | noun
+ËGUBI        | message          | noun
+MÖZ          | question         | noun
+QËFÖ         | answer           | noun
+MAFGÖ        | idea             | noun
+OTIZU        | plan             | noun
+KIYIF        | goal             | noun
+DIKÖN        | problem          | noun
+ËNIZÖ        | solution         | noun
+GIKGË        | rule             | noun
+OQËFO        | limit            | noun
+ËNÖG         | error            | noun
+YUÖZ         | name             | noun
+YËWZË        | number           | noun
+ÖYÖYO        | time             | noun
+TÖFFO        | day              | noun
+FËB          | world            | noun
+QAZBÖ        | space            | noun
+ËQËM         | network          | noun
+GACCË        | data             | noun
+ADIBA        | code             | noun
+ZOFÖG        | task             | noun
+TÖËZ         | signal           | noun
+GUBWO        | voice            | noun
+IZOTI        | mind             | noun
+AZOZA        | body             | noun
+KAYÖQ        | memory           | noun
+RUDUW        | action           | noun
+NËÖY         | reaction         | noun
+IMÖW         | version          | noun
+YIYLU        | link             | noun
+TÖYÖB        | source           | noun
+UKÖLO        | output           | noun
+GIMËM        | input            | noun
+DÖYRË        | request          | noun
+RÖBGÖ        | response         | noun
+ONÖQU        | list             | noun
+WUNOB        | order            | noun
+QOL          | level            | noun
+MAYFA        | path             | noun
+ZOFËW        | key              | noun
+AQUMU        | value            | noun
+
